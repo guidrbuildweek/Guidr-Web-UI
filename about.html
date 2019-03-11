@@ -15,17 +15,58 @@
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"
     ></script>
-    <script src="./components/.js" async></script>
+    <script defer="defer" src="./components/Tabs/Tabs.js"></script>
   </head>
   <body>
-    <header>
-      <h1>Guidr</h1>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html" target="_blank">About</a>
-        <a href="#">Contact</a>
-        <a href="#">Login</a>
-      </nav>
-    </header>
+    <div class="top-about">
+      <header>
+        <h1>Guidr</h1>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html" target="_blank">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Login</a>
+        </nav>
+      </header>
+    </div>
+    <section class="about-content">
+      <h2>Why Use Guidr?</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non neque
+        voluptates, aliquam libero quaerat vel consectetur dolore, laboriosam
+        tempora debitis quam officiis, ab omnis saepe earum aspernatur repellat
+        ut. Tempora.
+      </p>
+    </section>
+
+    <div class="section">
+      <div class="tabs">
+        <div class="tabs-links">
+          <div class="tabs-link tabs-link-selected" data-tab="1">Team Lead</div>
+          <div class="tabs-link" data-tab="2">Web UI</div>
+          <div class="tabs-link" data-tab="3">Front End</div>
+          <div class="tabs-link" data-tab="4">Back End</div>
+        </div>
+        <div class="tabs-items">
+          <div class="tabs-item tabs-item-selected" data-tab="1">
+            <div class="tabs-item-name">Mikaela Currier</div>
+          </div>
+          <div class="tabs-item" data-tab="2">
+            <div class="tabs-item-name">Sarah Riley</div>
+            <div class="tabs-item-name">Dayton Steinmeyer</div>
+          </div>
+          <div class="tabs-item" data-tab="3">
+            <div class="tabs-item-name">Elisa</div>
+            <div class="tabs-item-name">Thorben Bender</div>
+          </div>
+          <div class="tabs-item" data-tab="4">
+            <div class="tabs-item-name">Henry Neal</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright GUIDR 2019</p>
+    </footer>
   </body>
 </html>
