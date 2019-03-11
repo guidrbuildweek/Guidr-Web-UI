@@ -163,10 +163,65 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-header {
+.home-top {
+  width: 100%;
+  background-image: url("../assets/samuel-scrimshaw-318621-unsplash.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.home-top header {
   display: flex;
+  justify-content: space-between;
+}
+.home-top header h1 {
+  width: 48%;
+  padding: 10px 0 0 30px;
+}
+.home-top header nav {
+  width: 30%;
+  display: flex;
+  align-items: center;
   justify-content: space-evenly;
 }
+.home-top header nav a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #fc0;
+  text-transform: uppercase;
+}
+.home-top .home-top-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
+}
+.home-top .home-top-text h2 {
+  font-size: 7rem;
+  padding-bottom: 2rem;
+}
+.home-top .home-top-text p {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 3rem;
+}
+.home-top .home-top-text button {
+  background-color: #fc0;
+  color: black;
+  margin: 8px 0;
+  cursor: pointer;
+  padding: 10px 5%;
+  text-align: center;
+  width: 20rem;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  margin: 0 10px 0 10px;
+}
+.home-top .home-top-text button:hover {
+  background-color: white;
+  color: black;
+}
 .main-img {
-  width: 50%;
+  width: 100%;
 }
