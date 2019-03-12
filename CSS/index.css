@@ -179,7 +179,7 @@ p {
   padding: 10px 0 0 30px;
 }
 .home-top header nav {
-  width: 30%;
+  min-width: 40%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -220,6 +220,7 @@ p {
   font-size: 1.6rem;
   border-radius: 15px;
   border: 0;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   margin: 0 10px 0 10px;
 }
 .home-top .home-top-text button:hover {
@@ -252,9 +253,7 @@ p {
 footer {
   text-align: center;
   padding: 2rem 0;
-  background-color: #72675d;
-  background-image: linear-gradient(#72675d, #aba299);
-  color: white;
+  background-color: whitesmoke;
   margin-top: 5rem;
 }
 .top-about header {
@@ -289,6 +288,8 @@ footer {
   width: 30%;
   height: 50vh;
   margin: 4rem;
+  border-radius: 3px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 .about-content .about-content-text {
   width: 30%;
