@@ -44,20 +44,39 @@
   justify-content: center;
   padding: 4rem 0;
 
+  @media @mobile {
+    
+    flex-direction: column-reverse;
+  }
+
   img {
     width: 30%;
     height: 40rem;
     margin: 4rem;
     border-radius: 3px;
     box-shadow: 0 .5rem 1rem rgba(black,.2);
+
+    @media @mobile {
+      width: 80%;
+  
+    }
   }
   .about-content-text {
     width: 30%;
     margin: 4rem;
     padding-top: 1.5rem;
 
+    @media @mobile {
+      width: 80%;
+      
+    }
+
     h2 {
       padding-bottom: 2rem;
+
+      @media @mobile {
+        text-align: center;
+      }      
     }
 
   }
