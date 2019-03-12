@@ -131,6 +131,7 @@ table {
 }
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 html,
 body {
@@ -244,6 +245,9 @@ p {
   border: 0;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   margin: 0 10px 0 10px;
+}
+.home-top .home-top-text button:focus {
+  outline: 0;
 }
 .home-top .home-top-text button:hover {
   background-color: white;
