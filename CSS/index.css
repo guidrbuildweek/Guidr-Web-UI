@@ -226,6 +226,13 @@ p {
   background-color: white;
   color: black;
 }
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #72675d;
+  background-image: linear-gradient(#72675d, #aba299);
+  color: white;
+}
 .top-about header {
   display: flex;
   justify-content: space-between;
@@ -273,7 +280,8 @@ p {
 }
 .tabs {
   width: 60%;
-  margin: auto;
+  margin: 0 auto 5rem;
+  border: 2px solid #72675d;
 }
 .tabs .tabs-items {
   width: 100%;
@@ -289,29 +297,29 @@ p {
 .tabs .tabs-item .tabs-item-name {
   font-size: 2rem;
   font-weight: bold;
-  padding-bottom: 1rem;
+  padding: 2rem 0;
 }
 .tabs .tabs-item-selected {
   display: block;
 }
 .tabs .tabs-links {
   display: flex;
-  background-color: #4A5043;
+  background-color: #72675d;
 }
 .tabs .tabs-link {
   padding: 2rem 2.5rem;
   font-size: 2.4rem;
-  background-color: #4A5043;
+  background-color: #72675d;
   border-right: 2px solid white;
   color: white;
   cursor: pointer;
 }
 .tabs .tabs-link:hover {
-  background-color: #4A5043;
+  background-color: #72675d;
 }
 .tabs .tabs-link-selected {
   z-index: 2;
-  border-right: 1px solid #4A5043;
+  border-right: 1px solid #72675d;
   background-color: white;
   color: black;
 }
