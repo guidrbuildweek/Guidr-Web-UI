@@ -226,9 +226,6 @@ p {
   background-color: white;
   color: black;
 }
-.main-img {
-  width: 100%;
-}
 .top-about header {
   display: flex;
   justify-content: space-between;
@@ -251,6 +248,28 @@ p {
 }
 .top-about nav a:hover {
   color: black;
+}
+.about-content {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+}
+.about-content img {
+  width: 30%;
+  height: 50vh;
+  margin: 4rem;
+}
+.about-content .about-content-text {
+  width: 30%;
+  margin: 4rem;
+  padding-top: 3rem;
+}
+.about-content .about-content-text h2 {
+  padding-bottom: 2rem;
+}
+.section h2 {
+  margin: 3rem auto;
+  text-align: center;
 }
 .tabs {
   width: 60%;
