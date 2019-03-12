@@ -4,15 +4,24 @@
   height: 100vh;
   background-size: cover;
   background-position: center;
-  
 
   header {
     display: flex;
     justify-content: space-between;
 
+    @media @mobile {
+      display: block;
+    }
+
     h1 {
       width: 48%;
       padding: 10px 0 0 30px;
+
+      @media @mobile {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 5%;
+      }
     }
 
     nav {
@@ -27,7 +36,7 @@
         color: @accent-color;
         text-transform: uppercase;
 
-        &:hover{
+        &:hover {
           color: black;
         }
       }
@@ -44,11 +53,19 @@
     h2 {
       font-size: 7rem;
       padding-bottom: 2rem;
+
+      @media @mobile {
+        font-size: 5rem;
+      }
     }
     p {
       text-align: center;
       font-size: 2rem;
       padding-bottom: 3rem;
+
+      @media @mobile {
+        font-size: 1.8rem;
+      }
     }
     button {
       .custom-button();

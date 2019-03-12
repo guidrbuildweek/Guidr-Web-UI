@@ -174,9 +174,21 @@ p {
   display: flex;
   justify-content: space-between;
 }
+@media ( max-width: 500px ) {
+  .home-top header {
+    display: block;
+  }
+}
 .home-top header h1 {
   width: 48%;
   padding: 10px 0 0 30px;
+}
+@media ( max-width: 500px ) {
+  .home-top header h1 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5%;
+  }
 }
 .home-top header nav {
   min-width: 40%;
@@ -204,10 +216,20 @@ p {
   font-size: 7rem;
   padding-bottom: 2rem;
 }
+@media ( max-width: 500px ) {
+  .home-top .home-top-text h2 {
+    font-size: 5rem;
+  }
+}
 .home-top .home-top-text p {
   text-align: center;
   font-size: 2rem;
   padding-bottom: 3rem;
+}
+@media ( max-width: 500px ) {
+  .home-top .home-top-text p {
+    font-size: 1.8rem;
+  }
 }
 .home-top .home-top-text button {
   background-color: #fc0;
@@ -237,18 +259,42 @@ p {
   display: flex;
   justify-content: space-evenly;
 }
+@media ( max-width: 500px ) {
+  .profiles-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .profiles-row .profile {
   width: 20%;
   padding: 3% 0;
+}
+@media ( max-width: 500px ) {
+  .profiles-row .profile {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 6rem;
+  }
 }
 .profiles-row .profile img {
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
 }
+@media ( max-width: 500px ) {
+  .profiles-row .profile img {
+    align-self: center;
+  }
+}
 .profiles-row .profile h3 {
   font-size: 3rem;
   padding: 2rem 0;
+}
+@media ( max-width: 500px ) {
+  .profiles-row .profile h3 {
+    align-self: center;
+  }
 }
 footer {
   text-align: center;
@@ -260,12 +306,24 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+@media ( max-width: 500px ) {
+  .top-about header {
+    display: block;
+  }
+}
 .top-about h1 {
   width: 48%;
   padding: 10px 0 0 30px;
 }
+@media ( max-width: 500px ) {
+  .top-about h1 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+}
 .top-about nav {
-  width: 30%;
+  min-width: 40%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -286,7 +344,7 @@ footer {
 }
 .about-content img {
   width: 30%;
-  height: 50vh;
+  height: 40rem;
   margin: 4rem;
   border-radius: 3px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
@@ -294,7 +352,7 @@ footer {
 .about-content .about-content-text {
   width: 30%;
   margin: 4rem;
-  padding-top: 3rem;
+  padding-top: 1.5rem;
 }
 .about-content .about-content-text h2 {
   padding-bottom: 2rem;

@@ -11,20 +11,39 @@
   display: flex;
   justify-content: space-evenly;
 
+  @media @mobile {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .profile{
     width: 20%;
     padding: 3% 0;
+
+    @media @mobile {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      padding-top: 6rem;
+    }
 
     img {
       width: 10rem;
       height: 10rem;
       border-radius: 50%;
+
+      @media @mobile {
+        align-self: center;
+      }
     }
 
     h3{
       font-size: 3rem;
       padding: 2rem 0;
-      
+     
+      @media @mobile {
+        align-self: center;
+      }
     }
   }
 

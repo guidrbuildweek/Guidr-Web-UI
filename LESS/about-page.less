@@ -2,15 +2,25 @@
   header {
     display: flex;
     justify-content: space-between;
+
+    @media @mobile {
+      display: block;
+    }
   }
 
   h1 {
     width: 48%;
     padding: 10px 0 0 30px;
+
+    @media @mobile {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 5%;
+    }
   }
 
   nav {
-    width: 30%;
+    min-width: 40%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -36,7 +46,7 @@
 
   img {
     width: 30%;
-    height: 50vh;
+    height: 40rem;
     margin: 4rem;
     border-radius: 3px;
     box-shadow: 0 .5rem 1rem rgba(black,.2);
@@ -44,7 +54,7 @@
   .about-content-text {
     width: 30%;
     margin: 4rem;
-    padding-top: 3rem;
+    padding-top: 1.5rem;
 
     h2 {
       padding-bottom: 2rem;
