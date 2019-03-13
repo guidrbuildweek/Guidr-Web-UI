@@ -31,6 +31,10 @@
       align-items: center;
       justify-content: space-evenly;
 
+      @media @tablet {
+        padding: 3% 5% 0 0;
+      }
+
       a {
         text-decoration: none;
         font-size: 1.6rem;
@@ -72,9 +76,9 @@
     .top-btns {
       display: flex;
       justify-content: center;
-      
+
       .btn-profile {
-        .custom-button(@width: 20rem, @bg-color:@neutral, @font-color: black);
+        .custom-button(20rem, @neutral, black);
         margin: 0 10px 0 10px;
       }
 

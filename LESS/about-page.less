@@ -26,6 +26,10 @@
     align-items: center;
     justify-content: space-evenly;
 
+    @media @tablet {
+      padding: 3% 5% 0 0;
+    }
+
     a {
       text-decoration: none;
       font-size: 1.6rem;
@@ -39,15 +43,14 @@
   }
 }
 
-
 .about-content {
   display: flex;
   justify-content: center;
   padding: 4rem 0;
 
-  @media @mobile {
-    
+  @media @tablet {
     flex-direction: column-reverse;
+    align-items: center;
   }
 
   img {
@@ -55,11 +58,10 @@
     height: 40rem;
     margin: 4rem;
     border-radius: 3px;
-    box-shadow: 0 .5rem 1rem rgba(black,.2);
+    box-shadow: 0 0.5rem 1rem rgba(black, 0.2);
 
-    @media @mobile {
+    @media @tablet {
       width: 80%;
-  
     }
   }
   .about-content-text {
@@ -67,9 +69,8 @@
     margin: 4rem;
     padding-top: 1.5rem;
 
-    @media @mobile {
+    @media @tablet {
       width: 80%;
-      
     }
 
     h2 {
@@ -77,14 +78,13 @@
 
       @media @mobile {
         text-align: center;
-      }      
+      }
     }
-
   }
 }
 
 .section {
-  h2{
+  h2 {
     margin: 3rem auto;
     text-align: center;
   }

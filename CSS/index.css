@@ -198,6 +198,11 @@ p {
   align-items: center;
   justify-content: space-evenly;
 }
+@media ( max-width: 800px ) {
+  .home-top header nav {
+    padding: 3% 5% 0 0;
+  }
+}
 .home-top header nav a {
   text-decoration: none;
   font-size: 1.6rem;
@@ -253,7 +258,6 @@ p {
 }
 .home-top .home-top-text .top-btns .btn-profile:hover {
   background-color: white;
-  color: black;
 }
 .home-top .home-top-text .top-btns .btn-guide {
   background-color: #fc0;
@@ -271,7 +275,6 @@ p {
 }
 .home-top .home-top-text .top-btns .btn-guide:hover {
   background-color: white;
-  color: black;
 }
 .main-content h2 {
   font-size: 4rem;
@@ -353,6 +356,11 @@ footer {
   align-items: center;
   justify-content: space-evenly;
 }
+@media ( max-width: 800px ) {
+  .top-about nav {
+    padding: 3% 5% 0 0;
+  }
+}
 .top-about nav a {
   text-decoration: none;
   font-size: 1.6rem;
@@ -367,9 +375,10 @@ footer {
   justify-content: center;
   padding: 4rem 0;
 }
-@media ( max-width: 500px ) {
+@media ( max-width: 800px ) {
   .about-content {
     flex-direction: column-reverse;
+    align-items: center;
   }
 }
 .about-content img {
@@ -379,7 +388,7 @@ footer {
   border-radius: 3px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
-@media ( max-width: 500px ) {
+@media ( max-width: 800px ) {
   .about-content img {
     width: 80%;
   }
@@ -389,7 +398,7 @@ footer {
   margin: 4rem;
   padding-top: 1.5rem;
 }
-@media ( max-width: 500px ) {
+@media ( max-width: 800px ) {
   .about-content .about-content-text {
     width: 80%;
   }
