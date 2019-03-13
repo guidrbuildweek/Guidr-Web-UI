@@ -131,7 +131,6 @@ table {
 }
 html {
   font-size: 62.5%;
-  scroll-behavior: smooth;
 }
 html,
 body {
@@ -333,6 +332,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding-top: 1.3rem;
+  padding-bottom: 1rem;
 }
 @media ( max-width: 500px ) {
   .top-about header {
@@ -342,6 +342,8 @@ footer {
 .top-about h1 {
   width: 48%;
   padding: 1rem 0 0 5rem;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 4rem;
 }
 @media ( max-width: 500px ) {
   .top-about h1 {
@@ -374,6 +376,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 4rem 0;
+  background-color: whitesmoke;
 }
 @media ( max-width: 800px ) {
   .about-content {
@@ -404,15 +407,22 @@ footer {
 }
 .about-content .about-content-text h2 {
   padding-bottom: 2rem;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 3.2rem;
 }
 @media ( max-width: 500px ) {
   .about-content .about-content-text h2 {
     text-align: center;
   }
 }
+.section {
+  padding: 6rem 0;
+}
 .section h2 {
   margin: 3rem auto;
   text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 3.2rem;
 }
 .tabs {
   width: 60%;
