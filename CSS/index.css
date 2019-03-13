@@ -131,6 +131,7 @@ table {
 }
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 html,
 body {
@@ -316,6 +317,7 @@ p {
 .profiles-row .profile h3 {
   font-size: 3rem;
   padding: 2rem 0;
+  border-bottom: 1px dashed #72675d;
 }
 @media ( max-width: 500px ) {
   .profiles-row .profile h3 {
