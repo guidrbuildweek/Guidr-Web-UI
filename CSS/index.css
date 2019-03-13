@@ -381,7 +381,7 @@ footer {
     align-items: center;
   }
 }
-.about-content img {
+.about-content .carousel {
   width: 30%;
   height: 40rem;
   margin: 4rem;
@@ -389,7 +389,7 @@ footer {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 @media ( max-width: 800px ) {
-  .about-content img {
+  .about-content .carousel {
     width: 80%;
   }
 }
