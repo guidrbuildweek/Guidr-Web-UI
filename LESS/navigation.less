@@ -8,6 +8,7 @@
   header {
     display: flex;
     justify-content: space-between;
+    padding-top: 1.3rem;
 
     @media @mobile {
       display: block;
@@ -15,7 +16,7 @@
 
     h1 {
       width: 48%;
-      padding: 10px 0 0 30px;
+      padding: 1rem 0 0 5rem;
 
       @media @mobile {
         width: 100%;
@@ -48,10 +49,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 10rem;
+    padding-top: 13rem;
 
     h2 {
-      font-size: 7rem;
+      font-size: 6.5rem;
       padding-bottom: 2rem;
 
       @media @mobile {
@@ -67,9 +68,20 @@
         font-size: 1.8rem;
       }
     }
-    button {
-      .custom-button();
-      margin: 0 10px 0 10px;
+
+    .top-btns {
+      display: flex;
+      justify-content: center;
+      
+      .btn-profile {
+        .custom-button(@width: 20rem, @bg-color:@neutral, @font-color: black);
+        margin: 0 10px 0 10px;
+      }
+
+      .btn-guide {
+        .custom-button();
+        margin: 0 10px 0 10px;
+      }
     }
   }
 }
