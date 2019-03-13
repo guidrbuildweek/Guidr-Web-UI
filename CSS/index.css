@@ -396,7 +396,6 @@ footer {
 .about-content .about-content-text {
   width: 30%;
   margin: 4rem;
-  padding-top: 1.5rem;
 }
 @media ( max-width: 800px ) {
   .about-content .about-content-text {
