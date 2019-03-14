@@ -20,18 +20,20 @@
   }
 
   .profile {
-    width: 32%;
+    width: 31%;
     margin: 5% 0;
     box-shadow: 0 0.5rem 1rem rgba(black, 0.2);
     border-radius: 7px;
     padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     @media @tablet {
       width: 70%;
       display: flex;
-      flex-direction: column;
+      
       padding-top: 3rem;
-      align-items: center;
     }
 
     img {
@@ -49,10 +51,7 @@
 
     p {
       margin: 2rem 0;
-
-      @media @tablet {
-        text-align: center;
-      }
+      text-align: center;
     }
     a {
       .custom-button(20rem, @stone, white);
@@ -77,8 +76,8 @@
   padding-right: 10rem;
 
   .home-bottom-text {
-    width: 25%;
-    height: 40vh;
+    width: 30%;
+    height: 50vh;
     background-color: @neutral;
     border: 1px solid gray;
     border-radius: 7px;
@@ -89,6 +88,10 @@
 
     @media @tablet {
       width: 35%;
+    }
+
+    @media @mobile {
+      width: 60%;
     }
 
     h2 {
@@ -104,6 +107,10 @@
     a {
       .custom-button();
       align-self: center;
+
+      @media @mobile {
+        .custom-button(70%);
+      }
     }
   }
 }
