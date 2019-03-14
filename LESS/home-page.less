@@ -32,7 +32,6 @@
     @media @tablet {
       width: 70%;
       display: flex;
-      
       padding-top: 3rem;
     }
 
@@ -76,8 +75,7 @@
   padding-right: 10rem;
 
   .home-bottom-text {
-    width: 30%;
-    height: 50vh;
+    width: 25%;
     background-color: @neutral;
     border: 1px solid gray;
     border-radius: 7px;
@@ -85,6 +83,7 @@
     line-height: 1.5;
     display: flex;
     flex-direction: column;
+    padding: 3rem 2rem;
 
     @media @tablet {
       width: 35%;
@@ -97,18 +96,13 @@
     h2 {
       color: black;
       text-align: center;
-      margin: 3rem 0 2rem 0;
-
-      @media @tablet {
-        margin: 1.5rem 0 .5rem 0;
-      }
-
     }
+
     a {
       .custom-button();
       align-self: center;
 
-      @media @mobile {
+      @media @tablet {
         .custom-button(70%);
       }
     }

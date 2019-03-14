@@ -13,13 +13,13 @@
   h1 {
     width: 48%;
     padding: 1rem 0 0 5rem;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: "Shadows Into Light", cursive;
     font-size: 4rem;
 
     @media @mobile {
       width: 100%;
       text-align: center;
-      padding-bottom: 5%;
+      padding: 2rem 0;
     }
   }
 
@@ -57,28 +57,28 @@
     align-items: center;
   }
 
-  .carousel {
-    width: 30%;
-    height: 40rem;
-    margin: 4rem;
-    border-radius: 5px;
-    box-shadow: 0 0.5rem 1rem rgba(black, 0.2);
-    overflow: hidden;
+  .carousel-container {
+    width: 35%;
+    height: auto;
 
     @media @tablet {
       width: 80%;
+      height: auto;
+      overflow: hidden;
     }
 
-    img {
-      width: 100%;
-      height: auto;
+    .carousel {
+      margin: 6rem auto;
+      border-radius: 5px;
+      box-shadow: 0 0.5rem 1rem rgba(black, 0.2);
+      overflow: hidden;
+     
     }
   }
 
   .about-content-text {
     width: 30%;
-    margin: 4rem;
-    
+    margin: 6.5rem 5rem;
 
     @media @tablet {
       width: 80%;
@@ -86,7 +86,7 @@
 
     h2 {
       padding-bottom: 2rem;
-      font-family: 'Shadows Into Light', cursive;
+      font-family: "Shadows Into Light", cursive;
       font-size: 3.2rem;
 
       @media @mobile {
@@ -102,7 +102,7 @@
   h2 {
     margin: 3rem auto;
     text-align: center;
-    font-family: 'Shadows Into Light', cursive;
-      font-size: 3.2rem;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 3.2rem;
   }
 }
