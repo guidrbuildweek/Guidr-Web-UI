@@ -285,6 +285,11 @@ p {
   text-align: center;
   background-color: whitesmoke;
 }
+@media ( max-width: 550px ) {
+  .main-content h2 {
+    padding: 2rem 2rem;
+  }
+}
 .profiles-grid {
   display: flex;
   justify-content: space-between;
@@ -497,7 +502,7 @@ footer {
   overflow: hidden;
 }
 .about-content .about-content-text {
-  width: 30%;
+  width: 40%;
   margin: 6.5rem 5rem;
 }
 @media ( max-width: 900px ) {

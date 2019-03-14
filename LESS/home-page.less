@@ -6,6 +6,10 @@
     padding: 5rem 0 5rem 0;
     text-align: center;
     background-color: @neutral;
+
+    @media @mobile {
+      padding: 2rem 2rem;
+    }
   }
 }
 
@@ -39,7 +43,6 @@
       width: 10rem;
       height: 10rem;
       border-radius: 50%;
-
     }
 
     h3 {
@@ -50,7 +53,6 @@
 
     p {
       margin: 2rem 0;
-      // text-align: center;
     }
     a {
       .custom-button(20rem, @stone, white);
