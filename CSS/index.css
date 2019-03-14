@@ -324,6 +324,67 @@ p {
     align-self: center;
   }
 }
+.profiles-row .profile a {
+  background-color: #72675d;
+  color: white;
+  margin: 8px 0;
+  cursor: pointer;
+  padding: 10px 5%;
+  text-align: center;
+  text-decoration: none;
+  width: 20rem;
+  font-size: 1.6rem;
+  border-radius: 15px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.profiles-row .profile a:hover {
+  background-color: white;
+}
+.home-bottom {
+  width: 100%;
+  background-image: url("../assets/galen-crout-78522-unsplash.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 10rem;
+}
+.home-bottom .home-bottom-text {
+  width: 25%;
+  height: 25rem;
+  background-color: whitesmoke;
+  border: 1px solid gray;
+  border-radius: 7px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+.home-bottom .home-bottom-text h2 {
+  color: black;
+  text-align: center;
+  margin: 3rem 0 2rem 0;
+}
+.home-bottom .home-bottom-text a {
+  background-color: #fc0;
+  color: black;
+  margin: 8px 0;
+  cursor: pointer;
+  padding: 10px 5%;
+  text-align: center;
+  text-decoration: none;
+  width: 20rem;
+  font-size: 1.6rem;
+  border-radius: 15px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  align-self: center;
+}
+.home-bottom .home-bottom-text a:hover {
+  background-color: white;
+}
 footer {
   text-align: center;
   padding: 2rem 0;

@@ -46,10 +46,48 @@
         align-self: center;
       }
     }
+
+    a {
+      .custom-button(20rem, @stone, white);
+    }
   }
 
 }
 
+.home-bottom {
+  width: 100%;
+  background-image: url("../assets/galen-crout-78522-unsplash.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 10rem;
+
+  .home-bottom-text {
+      width: 25%;
+      height: 25rem;
+      background-color: @neutral;
+      border: 1px solid gray;
+      border-radius: 7px;
+      box-shadow: 0 .5rem 1rem rgba(black,.2);
+      line-height: 1.5;
+      display: flex;
+      flex-direction: column;
+
+    h2 {
+      color: black;
+      text-align: center;
+      margin: 3rem 0 2rem 0;
+    }
+    a {
+      .custom-button();
+      align-self: center;
+    }
+  }
+}
 
 
 
