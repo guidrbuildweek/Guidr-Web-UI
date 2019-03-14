@@ -276,55 +276,61 @@ p {
 .home-top .home-top-text .top-btns .btn-guide:hover {
   background-color: white;
 }
+.main-content {
+  margin: 10%;
+}
 .main-content h2 {
   font-size: 4rem;
-  padding: 15rem 0 8rem 0;
+  padding: 5rem 0 5rem 0;
   text-align: center;
   background-color: whitesmoke;
 }
-.profiles-row {
+.profiles-grid {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-@media ( max-width: 500px ) {
-  .profiles-row {
+@media ( max-width: 800px ) {
+  .profiles-grid {
     flex-direction: column;
     align-items: center;
   }
 }
-.profiles-row .profile {
-  width: 20%;
-  padding: 3% 0;
+.profiles-grid .profile {
+  width: 32%;
+  margin: 5% 0;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  padding: 3%;
 }
-@media ( max-width: 500px ) {
-  .profiles-row .profile {
+@media ( max-width: 800px ) {
+  .profiles-grid .profile {
     width: 70%;
     display: flex;
     flex-direction: column;
-    padding-top: 6rem;
+    padding-top: 3rem;
+    align-items: center;
   }
 }
-.profiles-row .profile img {
+.profiles-grid .profile img {
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
 }
-@media ( max-width: 500px ) {
-  .profiles-row .profile img {
-    align-self: center;
-  }
-}
-.profiles-row .profile h3 {
+.profiles-grid .profile h3 {
   font-size: 3rem;
   padding: 2rem 0;
   border-bottom: 1px dashed #72675d;
 }
-@media ( max-width: 500px ) {
-  .profiles-row .profile h3 {
-    align-self: center;
+.profiles-grid .profile p {
+  margin: 2rem 0;
+}
+@media ( max-width: 800px ) {
+  .profiles-grid .profile p {
+    text-align: center;
   }
 }
-.profiles-row .profile a {
+.profiles-grid .profile a {
   background-color: #72675d;
   color: white;
   margin: 8px 0;
@@ -337,8 +343,11 @@ p {
   border-radius: 15px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
-.profiles-row .profile a:hover {
+.profiles-grid .profile a:hover {
   background-color: white;
+}
+.profiles-grid .profile a:hover {
+  color: black;
 }
 .home-bottom {
   width: 100%;
@@ -354,7 +363,7 @@ p {
 }
 .home-bottom .home-bottom-text {
   width: 25%;
-  height: 25rem;
+  height: 40vh;
   background-color: whitesmoke;
   border: 1px solid gray;
   border-radius: 7px;
@@ -363,10 +372,20 @@ p {
   display: flex;
   flex-direction: column;
 }
+@media ( max-width: 800px ) {
+  .home-bottom .home-bottom-text {
+    width: 35%;
+  }
+}
 .home-bottom .home-bottom-text h2 {
   color: black;
   text-align: center;
   margin: 3rem 0 2rem 0;
+}
+@media ( max-width: 800px ) {
+  .home-bottom .home-bottom-text h2 {
+    margin: 1.5rem 0 0.5rem 0;
+  }
 }
 .home-bottom .home-bottom-text a {
   background-color: #fc0;
