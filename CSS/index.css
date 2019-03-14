@@ -429,7 +429,8 @@ footer {
 .tabs {
   width: 60%;
   margin: 0 auto 5rem;
-  border: 2px solid #72675d;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 @media ( max-width: 800px ) {
   .tabs {
@@ -448,13 +449,15 @@ footer {
   width: 75%;
 }
 .tabs .tabs-item .tabs-item-name {
-  font-family: 'Shadows Into Light', cursive;
-  font-size: 4rem;
-  padding: 2rem 0;
+  font-size: 2.4rem;
+  padding: 2rem 0.5rem;
 }
 .tabs .tabs-item .tabs-item-name a {
-  text-decoration: none;
   color: black;
+  border-bottom: 1px solid black;
+}
+.tabs .tabs-item .tabs-item-name a i {
+  color: #fc0;
 }
 .tabs .tabs-item .tabs-item-name a:hover {
   color: #fc0;
