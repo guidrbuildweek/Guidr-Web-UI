@@ -32,7 +32,11 @@
       justify-content: space-evenly;
 
       @media @tablet {
-        padding: 3% 5% 0 0;
+        padding: 3% 0 0 0;
+      }
+
+      @media @mobile {
+        width: 100%;
       }
 
       a {
@@ -55,6 +59,10 @@
     align-items: center;
     padding-top: 13rem;
 
+    @media @mobile {
+      padding-top: 5rem;
+    }
+
     h2 {
       font-size: 6.5rem;
       padding-bottom: 2rem;
@@ -69,7 +77,7 @@
       padding-bottom: 3rem;
 
       @media @mobile {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
       }
     }
 
@@ -80,11 +88,21 @@
       .btn-profile {
         .custom-button(20rem, @neutral, black);
         margin: 0 10px 0 10px;
+
+        @media @mobile {
+          .custom-button(50%, @neutral, black);
+          margin-right: 2rem;
+        }
       }
 
       .btn-guide {
         .custom-button();
         margin: 0 10px 0 10px;
+
+        @media @mobile {
+          .custom-button(50%);
+          margin-left: 2rem;
+        }
       }
     }
   }
