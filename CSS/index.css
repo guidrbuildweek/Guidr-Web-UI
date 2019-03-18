@@ -357,7 +357,7 @@ p {
 .profiles-grid .profile {
   width: 31%;
   margin: 5% 0;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 24px -10px rgba(0, 0, 0, 0.6);
   border-radius: 7px;
   padding: 3%;
   display: flex;
